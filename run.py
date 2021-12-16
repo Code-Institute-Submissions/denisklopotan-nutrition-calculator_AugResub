@@ -1,3 +1,12 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+def article1():
+    
+    print("Article 1:\n")
+    x = int(input("Enter calories: "))
+    y = int(input("How much fat? "))
+    z = int(input("Carbs? "))
+    w = int(input("And protein? "))
+    
+    article1_result = [x, y, z, w]
+    return article1_result
+
+print(article1())
