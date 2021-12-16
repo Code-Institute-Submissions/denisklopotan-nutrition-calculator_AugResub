@@ -1,3 +1,7 @@
+print("Welcome user! This simple 'Nutrition Calculator' helps you add calories and nutritional values of food and returns sum.\n")
+print("You can enter multiple articles of food, one after another. They will be simply called 'Article 1', 'Article 2', etc..\n")
+print("Simply enter values when prompted. Energy in calories (cal); fat, carbohydrate and protein content in grams (g). System used is metric.\n")
+
 def article1():
     
     print("Article 1:\n")
