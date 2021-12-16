@@ -25,7 +25,7 @@ article1()
 
 def article2():
     
-    print("Article 1:\n")
+    print("\nArticle 2:\n")
     while True:
         try:
             x = int(input("Enter calories: "))
