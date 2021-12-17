@@ -1,7 +1,8 @@
 print("**************************************************************************************") # 86*
-print("Welcome user! This simple 'Nutrition Calculator' helps you add calories and nutritional values of food and returns sum.\n")
+print("Welcome user! This simple 'Nutrition Calculator' helps you add calories and nutritional values of food and returns total sum.\n")
 print("You can enter multiple articles of food, one after another. They will be simply called 'Article 1', 'Article 2', etc..\n")
-print("For simplicity enter only round number values. Energy in calories (cal); fat, carbohydrate and protein content in grams (g). System used is metric.\n")
+print("Enter only round number values or zero (0) of following: energy in calories (cal); fat, carbohydrate and protein content in grams (g).\n")
+print("To exit the calculator you can press 'Control + C'. And...dont forget to smile! Its healthy and burns calories too! :D\n")
 print("**************************************************************************************") # 86*
 
 def article1():
