@@ -1,13 +1,13 @@
-print('*'*80)
+print('*'*81)
 print("Welcome user! This simple 'Nutrition Calculator' helps you\
  add calories\nand nutritional values of food and returns total sum.\n")
 print("You can enter only 2 articles of food in this version, in sequence.\
  \nThey will be simply called 'Article 1' & 'Article 2'.\n")
-print("Enter only round number values or zero (0) of following: energy\
+print("Enter only round number values or zero (0) of following:\nenergy\
  in calories (cal); fat, carbohydrate and protein content in grams (g).\n")
 print("To exit the calculator you can press 'Control + C'.\
- And...dont forget to smile! Its healthy and burns calories too! :D\n")
-print('*'*80)
+ \nAnd...dont forget to smile! Its healthy and burns calories too! :D\n")
+print('*'*81)
 
 
 def article1():
@@ -20,9 +20,9 @@ def article1():
     while True:
         try:
             x = int(input("Enter calories: "))
-            y = int(input("How much fat?\n"))
-            z = int(input("Carbohydrates?\n"))
-            w = int(input("And protein?\n"))
+            y = int(input("How much fat? "))
+            z = int(input("Carbohydrates? "))
+            w = int(input("And protein? "))
         except ValueError:
             print("This is not a round number! Please provide correct value")
             continue
@@ -42,13 +42,13 @@ def article2():
     """
     Same as for article1()
     """
-    print("\nArticle 2:\n")
+    print("\nArticle 2: ")
     while True:
         try:
-            x = int(input("Enter calories:\n"))
-            y = int(input("How much fat?\n"))
-            z = int(input("Carbohydrates?\n"))
-            w = int(input("And protein?\n"))
+            x = int(input("Enter calories: "))
+            y = int(input("How much fat? "))
+            z = int(input("Carbohydrates? "))
+            w = int(input("And protein? "))
         except ValueError:
             print("This is not a number! Please provide correct value")
             continue
