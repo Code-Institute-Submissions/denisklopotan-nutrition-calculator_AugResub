@@ -1,31 +1,31 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Simple 'Nutrition calculator'
 
-Welcome denisklopotan,
+As name says, this is a simple calculator to showcase simple python code.
+It takes multiple nutritional values from 2 articles and sums them together.
+Result prints calories, fat, carbohydrates and protein content in grams (g).
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![Responsive Mockup](/responsive.jpg)
 
-## Reminders
+## Features 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+### Existing Features
 
-## Creating the Heroku app
+Nutrition calculator able to take input for 4 values per article, 2 articles in total, add them together and return sum total.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+### Features Left to Implement
 
-1. `heroku/python`
-2. `heroku/nodejs`
+Expand on calculator able to take input for 'n' number of articles.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Testing 
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+Project was manually tested for for code validation at [PEP8 online](http://pep8online.com)
 
-Connect your GitHub repository and deploy as normal.
+### Validator Testing 
 
-## Constraints
+Project passed validator testing for all PEP8 requirements.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+![Validator Testing](/PEP8.jpeg)
 
------
-Happy coding!
+## Deployment
+
+The live link can be found here: 
