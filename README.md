@@ -4,7 +4,7 @@ As name says, this is a simple calculator to showcase simple python code.
 It takes multiple nutritional values from 2 articles and sums them together.
 Result prints calories, fat, carbohydrates and protein content in grams (g).
 
-![Responsive Mockup](/responsive.jpg)
+![Responsive Mockup](/heroku.jpeg)
 
 ## Features 
 
@@ -26,6 +26,10 @@ Project passed validator testing for all PEP8 requirements.
 
 ![Validator Testing](/PEP8.jpeg)
 
-## Deployment
+## Deployment to Heroku
 
-The live link can be found here: 
+Heroku is a platform designed to host dynamic websites. While Github pages is a great hosting platform for  
+projects built entirely with front end languages  like HTML, CSS and JavaScript, it's not built  
+to handle back end languages like Python, which  is why we're using Heroku for this deployment. 
+
+The live link can be found here: https://nutrition-calculator-2.herokuapp.com/
