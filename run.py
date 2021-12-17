@@ -1,4 +1,4 @@
-print('*'*81)
+print('*'*80)
 print("Welcome user! This simple 'Nutrition Calculator' helps you\
  add calories\nand nutritional values of food and returns total sum.\n")
 print("You can enter only 2 articles of food in this version, in sequence.\
@@ -7,7 +7,7 @@ print("Enter only round number values or zero (0) of following:\nenergy\
  in calories (cal); fat, carbohydrate and protein content in grams (g).\n")
 print("To exit the calculator you can press 'Control + C'.\
  \nAnd...dont forget to smile! Its healthy and burns calories too! :D\n")
-print('*'*81)
+print('*'*80)
 
 
 def article1():
@@ -42,7 +42,7 @@ def article2():
     """
     Same as for article1()
     """
-    print("\nArticle 2: ")
+    print("\nArticle 2:\n")
     while True:
         try:
             x = int(input("Enter calories: "))
@@ -66,5 +66,5 @@ with corresponding description inside of f-string.
 """
 result = zip(article1.variable, article2.variable)
 sum = [x + y for (x, y) in result]
-print(f'\nTotal calories: {sum[0]}, Fat: {sum[1]}g,\
+print(f'\nTotal calories: {sum[0]}cal, Fat: {sum[1]}g,\
  Carbohydrates: {sum[2]}g, Protein: {sum[3]}g')
