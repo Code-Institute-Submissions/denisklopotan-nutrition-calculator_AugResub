@@ -8,21 +8,11 @@ Result prints calories, fat, carbohydrates and protein content in grams (g).
 Target audience are fitness groups or people on diet that want to track their calories.
 - The live link can be found here: https://nutrition-calculator-2.herokuapp.com/
 
-![Responsive Mockup](assets/heroku.jpeg)
+![Responsive Mockup](assets/main.png)
 
 ## Table of Contents
 * [Introduction](#introduction)
 * [User Experience Design (UX)](#user-experience-design-ux)
-    * [The Strategy Plane](#the-strategy-plane)
-        * [Site Goals](#site-goals)
-        * [User Stories](#user-stories)
-    * [The Scope Plane](#the-scope-plane)
-    * [The Structure Plane](#the-structure-plane)
-        * [Opportunities](#opportunities)
-    * [The Skeleton Plane](#the-skeleton-plane)
-        * [Wireframes](#wireframe-mockups)
-        * [Logic Flow](#logic-flow)
-    * [The Surface Plane](#the-surface-plane)
 * [Features](#features)
 * [Future Enhancements](#future-enhancements)
 * [Technologies Used](#technologies-used)
@@ -34,11 +24,37 @@ Target audience are fitness groups or people on diet that want to track their ca
 
 ## User Experience Design (UX)
 
-Code Institute mock terminal on Heroku.
+Portfolio 3 projects main focus is to create functional pythone code. As such UX design is not of big significance, as we can see from provided mock terminal from Code Institute. It is not responsive on mobile devices and has scarce UI features for desktop too. It is barebone teminal and start button as presented:
+
+
+
+
 
 ## Features
 
-Nutrition calculator able to take input for 4 values per article, 2 articles in total, add them together and return sum total.
+Currently program is designed to take inputs from 2 articles, one after another and provide total result.
+
+- Article 1:
+
+![Responsive Mockup](assets/article1.png)
+
+- Article 2:
+
+![Responsive Mockup](assets/article2.png)
+
+- Result:
+
+![Responsive Mockup](assets/result.png)
+
+Input is limited only to round numbers so far and it doesnt accept letters. If we enter any of those we get an error message:
+
+- Decimal numbers:
+
+![Responsive Mockup](assets/decimals.png)
+
+- Letters:
+
+![Responsive Mockup](assets/letters.png)
 
 ## Future Enhancements
 
@@ -60,12 +76,22 @@ Nutrition calculator able to take input for 4 values per article, 2 articles in 
 
 ## Testing
 
-Project was manually tested for for code validation at [PEP8 online.](http://pep8online.com)
-Project passed validator testing for all PEP8 requirements. ![Validator Testing](/PEP8.jpeg)
+### PEP 8
+
+Python code was manually tested for code validation at [PEP8 online.](http://pep8online.com)
+Project passed validator testing for all PEP8 requirements. ![Validator Testing](assets/pep8.png)
+
+### Lighthouse
+
+We used inbuilt Chrome DevTools testing tool called 'Lighthouse' to test webpage performance, accesibility, best practices and SEO. Project scored high numbers in first two categories while other two still have space for improvement.
+
+![Responsive Mockup](assets/lighthouse.png)
 
 ### Bugs
 
 - 'Control + C' command doesn't work properly. Instead of exiting calculator it freezes terminal. For now user can use 'Restart' button for that. To be fixed in future and implemented in terminal.
+
+![Responsive Mockup](assets/ctrlc.png)
 
 ## Deployment
 
