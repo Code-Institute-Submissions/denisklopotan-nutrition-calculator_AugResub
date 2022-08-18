@@ -5,9 +5,10 @@
 As name says, this is a simple calculator to showcase simple python code.
 It takes multiple nutritional values from 2 articles and sums them together.
 Result prints calories, fat, carbohydrates and protein content in grams (g).
-The live link can be found here: https://nutrition-calculator-2.herokuapp.com/
+Target audience are fitness groups or people on diet that want to track their calories.
+- The live link can be found here: https://nutrition-calculator-2.herokuapp.com/
 
-![Responsive Mockup](/heroku.jpeg)
+![Responsive Mockup](assets/heroku.jpeg)
 
 ## Table of Contents
 * [Introduction](#introduction)
@@ -43,6 +44,7 @@ Nutrition calculator able to take input for 4 values per article, 2 articles in 
 
 - Make code that can take input for 'n' number of articles. Which means calculating more than just 2 inputs.
 - After second input provide option to continue adding articles or calculate current inputs.
+- Extend functionality to be able to input decimal numbers too.
 - Make it able to restart calculator from terminal, not just with mockup button.
 - Possibility for an mobile app.
 
@@ -61,9 +63,19 @@ Nutrition calculator able to take input for 4 values per article, 2 articles in 
 Project was manually tested for for code validation at [PEP8 online.](http://pep8online.com)
 Project passed validator testing for all PEP8 requirements. ![Validator Testing](/PEP8.jpeg)
 
+### Bugs
+
+- 'Control + C' command doesn't work properly. Instead of exiting calculator it freezes terminal. For now user can use 'Restart' button for that. To be fixed in future and implemented in terminal.
+
 ## Deployment
 
-### Github
+To deploy third portfolio project, the Python command-line project; we used Code Institute student template from GitHub that enables the application to be properly viewed on Heroku using a mock terminal.
+
+### GitHub
+
+[GitHub](https://github.com/), Inc., is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. - Wikipedia
+
+- Code Institute [Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template).
 
 ### Heroku
 
@@ -71,7 +83,7 @@ Project passed validator testing for all PEP8 requirements. ![Validator Testing]
 projects built entirely with front end languages  like HTML, CSS and JavaScript, it's not built  
 to handle back end languages like Python, which  is why we're using Heroku for this deployment.
 
-The live link can be found here: https://nutrition-calculator-2.herokuapp.com/
+- The live link can be found here: https://nutrition-calculator-2.herokuapp.com/
 
 ## Credits
 
@@ -86,6 +98,8 @@ For more specific help with building project i found Stack Overflow blog very he
 - [Stack Overflow](https://stackoverflow.com/)
   - Tips and help with inputs: [How to get N inputs from user in python](https://stackoverflow.com/questions/30786513/how-to-get-n-inputs-from-user-in-python)
   - Summing values, zip function..: [Python sum values from multiple lists](https://stackoverflow.com/questions/52703442/python-sum-values-from-multiple-lists-more-than-two)
+
+Webpage background image is hosted by [PxHere](https://pxhere.com/en/photo/669281)
  
 
 ## Acknowledgements

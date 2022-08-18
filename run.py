@@ -5,7 +5,7 @@ print("You can enter only 2 articles of food in this version, in sequence.\
  \nThey will be simply called 'Article 1' & 'Article 2'.\n")
 print("Enter only round number values or zero (0) of following:\nenergy\
  in calories (cal); fat, carbohydrate and protein content in grams (g).\n")
-print("To exit the calculator you can press 'Control + C'.\
+print("To start over, press 'Restart' button located in top left corner.\
  \nAnd...dont forget to smile! Its healthy and burns calories too! :D\n")
 print('*'*80)
 
